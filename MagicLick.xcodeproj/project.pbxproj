@@ -17,6 +17,7 @@
 		9273844D220524F900272917 /* MagicLickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9273844C220524F900272917 /* MagicLickTests.swift */; };
 		92738458220524FA00272917 /* MagicLickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92738457220524FA00272917 /* MagicLickUITests.swift */; };
 		9273846622052A8600272917 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9273846522052A8600272917 /* Podfile */; };
+		929B8D4D220902CB00DE26CD /* PitchToNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929B8D4C220902CB00DE26CD /* PitchToNumber.swift */; };
 		983ACE136FEBC2EB7900F84E /* Pods_MagicLickTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D806031756CE1FE91A01BFC /* Pods_MagicLickTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		92738459220524FA00272917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9273846522052A8600272917 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		929AA53F5532C655FDD6FAB1 /* Pods-MagicLick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicLick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicLick/Pods-MagicLick.debug.xcconfig"; sourceTree = "<group>"; };
+		929B8D4C220902CB00DE26CD /* PitchToNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchToNumber.swift; sourceTree = "<group>"; };
 		A9E91F9A820B16E74B03A6E8 /* Pods_MagicLickUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicLickUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C20A5FFF09B77BDAFB808B42 /* Pods-MagicLick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicLick.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicLick/Pods-MagicLick.release.xcconfig"; sourceTree = "<group>"; };
 		C6B753E82D1EC3E5883D4DF3 /* Pods-MagicLickTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicLickTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicLickTests/Pods-MagicLickTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				9273843E220524F900272917 /* Assets.xcassets */,
 				92738440220524F900272917 /* LaunchScreen.storyboard */,
 				92738443220524F900272917 /* Info.plist */,
+				929B8D4C220902CB00DE26CD /* PitchToNumber.swift */,
 			);
 			path = MagicLick;
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9273843A220524F900272917 /* ViewController.swift in Sources */,
+				929B8D4D220902CB00DE26CD /* PitchToNumber.swift in Sources */,
 				92738438220524F900272917 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

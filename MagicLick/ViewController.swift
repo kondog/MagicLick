@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import Beethoven
+import Pitchy
+import Hue
+import Cartography
 
 class ViewController: UIViewController {
 

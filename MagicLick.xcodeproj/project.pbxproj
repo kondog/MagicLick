@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B87ED4B1CA339FE56B05DD1 /* Pods_MagicLickUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E91F9A820B16E74B03A6E8 /* Pods_MagicLickUITests.framework */; };
+		25FD943E33C71B8059842088 /* Pods_MagicLick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CDAF044EFD3D42354FD845 /* Pods_MagicLick.framework */; };
 		92738438220524F900272917 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92738437220524F900272917 /* AppDelegate.swift */; };
 		9273843A220524F900272917 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92738439220524F900272917 /* ViewController.swift */; };
 		9273843D220524F900272917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9273843B220524F900272917 /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		9273844D220524F900272917 /* MagicLickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9273844C220524F900272917 /* MagicLickTests.swift */; };
 		92738458220524FA00272917 /* MagicLickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92738457220524FA00272917 /* MagicLickUITests.swift */; };
 		9273846622052A8600272917 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9273846522052A8600272917 /* Podfile */; };
+		983ACE136FEBC2EB7900F84E /* Pods_MagicLickTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D806031756CE1FE91A01BFC /* Pods_MagicLickTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		735E682D21881FD1104E3080 /* Pods-MagicLickTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicLickTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicLickTests/Pods-MagicLickTests.debug.xcconfig"; sourceTree = "<group>"; };
+		813624BCD3EE5C54F0598495 /* Pods-MagicLickUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicLickUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicLickUITests/Pods-MagicLickUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D806031756CE1FE91A01BFC /* Pods_MagicLickTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicLickTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91CDAF044EFD3D42354FD845 /* Pods_MagicLick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicLick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92738434220524F900272917 /* MagicLick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicLick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92738437220524F900272917 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92738439220524F900272917 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +55,12 @@
 		92738453220524FA00272917 /* MagicLickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicLickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92738457220524FA00272917 /* MagicLickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicLickUITests.swift; sourceTree = "<group>"; };
 		92738459220524FA00272917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9273846522052A8600272917 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; tabWidth = 2; };
+		9273846522052A8600272917 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		929AA53F5532C655FDD6FAB1 /* Pods-MagicLick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicLick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicLick/Pods-MagicLick.debug.xcconfig"; sourceTree = "<group>"; };
+		A9E91F9A820B16E74B03A6E8 /* Pods_MagicLickUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicLickUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20A5FFF09B77BDAFB808B42 /* Pods-MagicLick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicLick.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicLick/Pods-MagicLick.release.xcconfig"; sourceTree = "<group>"; };
+		C6B753E82D1EC3E5883D4DF3 /* Pods-MagicLickTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicLickTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicLickTests/Pods-MagicLickTests.release.xcconfig"; sourceTree = "<group>"; };
+		E504A154DE2537A4348CAD71 /* Pods-MagicLickUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicLickUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicLickUITests/Pods-MagicLickUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25FD943E33C71B8059842088 /* Pods_MagicLick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983ACE136FEBC2EB7900F84E /* Pods_MagicLickTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B87ED4B1CA339FE56B05DD1 /* Pods_MagicLickUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04CA123F127C2E42B89F1133 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				929AA53F5532C655FDD6FAB1 /* Pods-MagicLick.debug.xcconfig */,
+				C20A5FFF09B77BDAFB808B42 /* Pods-MagicLick.release.xcconfig */,
+				735E682D21881FD1104E3080 /* Pods-MagicLickTests.debug.xcconfig */,
+				C6B753E82D1EC3E5883D4DF3 /* Pods-MagicLickTests.release.xcconfig */,
+				813624BCD3EE5C54F0598495 /* Pods-MagicLickUITests.debug.xcconfig */,
+				E504A154DE2537A4348CAD71 /* Pods-MagicLickUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8EE217123B1BAFA0E8438E82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91CDAF044EFD3D42354FD845 /* Pods_MagicLick.framework */,
+				8D806031756CE1FE91A01BFC /* Pods_MagicLickTests.framework */,
+				A9E91F9A820B16E74B03A6E8 /* Pods_MagicLickUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9273842B220524F900272917 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +122,8 @@
 				9273844B220524F900272917 /* MagicLickTests */,
 				92738456220524FA00272917 /* MagicLickUITests */,
 				92738435220524F900272917 /* Products */,
+				04CA123F127C2E42B89F1133 /* Pods */,
+				8EE217123B1BAFA0E8438E82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9273845C220524FA00272917 /* Build configuration list for PBXNativeTarget "MagicLick" */;
 			buildPhases = (
+				7039EF53CC2841946B9DA40A /* [CP] Check Pods Manifest.lock */,
 				92738430220524F900272917 /* Sources */,
 				92738431220524F900272917 /* Frameworks */,
 				92738432220524F900272917 /* Resources */,
+				2C7B1A5763ED51CB250F03EB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9273845F220524FA00272917 /* Build configuration list for PBXNativeTarget "MagicLickTests" */;
 			buildPhases = (
+				843A8B3B62FFFE3D96FE9907 /* [CP] Check Pods Manifest.lock */,
 				92738444220524F900272917 /* Sources */,
 				92738445220524F900272917 /* Frameworks */,
 				92738446220524F900272917 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92738462220524FA00272917 /* Build configuration list for PBXNativeTarget "MagicLickUITests" */;
 			buildPhases = (
+				C8822D65FC4A6AD4EADFF075 /* [CP] Check Pods Manifest.lock */,
 				9273844F220524FA00272917 /* Sources */,
 				92738450220524FA00272917 /* Frameworks */,
 				92738451220524FA00272917 /* Resources */,
@@ -196,19 +240,22 @@
 				TargetAttributes = {
 					92738433220524F900272917 = {
 						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
 					};
 					92738447220524F900272917 = {
 						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 92738433220524F900272917;
 					};
 					92738452220524FA00272917 = {
 						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 92738433220524F900272917;
 					};
 				};
 			};
 			buildConfigurationList = 9273842F220524F900272917 /* Build configuration list for PBXProject "MagicLick" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -254,6 +301,103 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C7B1A5763ED51CB250F03EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MagicLick/Pods-MagicLick-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Beethoven/Beethoven.framework",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+				"${BUILT_PRODUCTS_DIR}/Hue/Hue.framework",
+				"${BUILT_PRODUCTS_DIR}/Pitchy/Pitchy.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Beethoven.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hue.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pitchy.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicLick/Pods-MagicLick-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7039EF53CC2841946B9DA40A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicLick-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		843A8B3B62FFFE3D96FE9907 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicLickTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8822D65FC4A6AD4EADFF075 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicLickUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		92738430220524F900272917 /* Sources */ = {
@@ -426,58 +570,54 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		9273845D220524FA00272917 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 929AA53F5532C655FDD6FAB1 /* Pods-MagicLick.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				INFOPLIST_FILE = MagicLick/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kondog.MagicLick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9273845E220524FA00272917 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C20A5FFF09B77BDAFB808B42 /* Pods-MagicLick.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				INFOPLIST_FILE = MagicLick/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kondog.MagicLick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		92738460220524FA00272917 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 735E682D21881FD1104E3080 /* Pods-MagicLickTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MagicLickTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kondog.MagicLickTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -488,16 +628,13 @@
 		};
 		92738461220524FA00272917 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B753E82D1EC3E5883D4DF3 /* Pods-MagicLickTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MagicLickTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kondog.MagicLickTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -508,15 +645,12 @@
 		};
 		92738463220524FA00272917 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 813624BCD3EE5C54F0598495 /* Pods-MagicLickUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MagicLickUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kondog.MagicLickUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -527,15 +661,12 @@
 		};
 		92738464220524FA00272917 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E504A154DE2537A4348CAD71 /* Pods-MagicLickUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MagicLickUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kondog.MagicLickUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
